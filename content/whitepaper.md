@@ -1,6 +1,6 @@
 ---
 title: "[WIP] Whitepaper"
-layout: "page"
+layout: "single"
 description: "Turning drains into gains with the Anti Bot Bot Club."
 summary: "Turning drains into gains with the Anti Bot Bot Club."
 # tags: ["whitepaper", "bots", "solana", "blockchain", "cybersecurity"]
@@ -11,7 +11,7 @@ hideAuthor: true
 
 # Abstract
 
-__*NOTE: The whitepaper is a work-in-progress and will be updated.*__
+__*NOTE: The whitepaper is work-in-progress and will be updated.*__
 
 Anti Bot Bot Club is an organisation that aims to battle the huge amount of bots on the Solana blockchain. We aim to turn drains from bots into gains. Over time we will develop and improve our anti-bots to continously help the community. A part of the $ABBC coin will be put into a fund to get security researchers, auditors and developers onboard. Our goal with the fund is to stimulate the strong web3 community into the battle against the bots. 
 

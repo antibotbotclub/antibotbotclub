@@ -1,6 +1,6 @@
 ---
 title: "Tokenomics"
-layout: "docs"
+layout: "single"
 description: "Read more about the $ABBC tokenomics here."
 summary: "Read more about the $ABBC tokenomics here."
 

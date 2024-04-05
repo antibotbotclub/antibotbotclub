@@ -18,19 +18,18 @@ params:
   description: "we build anti-bots - turning drains into gains"
   keywords: [Anti, Bots, Club, Web3, Cryptocurrency, ]
   author: Anti Bot Bot Club Admin
-  # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -52,7 +51,7 @@ params:
   label:
     text: "Anti Bot Bot Club"
     icon: /logo-white.png
-    iconHeight: 35
+    iconHeight: 69
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
@@ -61,7 +60,7 @@ params:
     imageUrl: "/logo-white.png"
     imageWidth: 250
     imageHeight: 250
-    imageTitle: logo
+    imageTitle: Anti Bot Bot Club logo
     # buttons:
     #   - name: Whitepaper
     #     url: /whitepaper
@@ -77,7 +76,7 @@ params:
     - name: x
       url: "https://x.com/AntiBotBotClub"
     - name: telegram
-      url: "https://t.me/+r5jiGjnrBAZiMGFk"
+      url: "https://t.me/antibotbotclub"
     - name: github
       url: "https://github.com/antibotbotclub"
 
@@ -94,22 +93,6 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  # editPost:
-  #   URL: "https://github.com/<path_to_repo>/content"
-  #   Text: "Suggest Changes" # edit text
-  #   appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
     - identifier: Whitepaper
@@ -128,7 +111,6 @@ menu:
       name: Solscan
       url: https://solscan.io/token/57mFSXw53JrpzAsK6Sfc2cH6iL3L7JRXEobxnjma5aii
       weight: 40
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:

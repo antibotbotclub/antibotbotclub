@@ -13,11 +13,11 @@ minify:
   minifyOutput: true
 
 params:
-  env: development # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Anti Bot Bot Club
-  description: "we build bots - turning drains into gains"
+  description: "we build anti-bots - turning drains into gains"
   keywords: [Anti, Bots, Club, Web3, Cryptocurrency, ]
-  author: smartbugs
+  author: Anti Bot Bot Club Admin
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -43,41 +43,41 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Anti Bot Bot Club"
-    icon: /apple-touch-icon.png
+    icon: /logo-white.png
     iconHeight: 35
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    enabled: true # needs to be explicitly set
+    title: "$ABBC"
+    subtitle: "we build anti-bots - turning drains into gains"
+    imageUrl: "/logo-white.png"
+    imageWidth: 250
+    imageHeight: 250
+    imageTitle: logo
+    # buttons:
+    #   - name: Whitepaper
+    #     url: /whitepaper
+    #   - name: $ABBC Coin
+    #     url: "https://solscan.io/token/57mFSXw53JrpzAsK6Sfc2cH6iL3L7JRXEobxnjma5aii"
 
   # home-info mode
   homeInfoParams:
-    Title: "we build bots"
+    Title: "we build anti-bots"
     Content: turning drains into gains
 
   socialIcons:
     - name: x
       url: "https://x.com/AntiBotBotClub"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: telegram
+      url: "https://t.me/+r5jiGjnrBAZiMGFk"
     - name: github
       url: "https://github.com/antibotbotclub"
 
@@ -94,10 +94,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -112,18 +112,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: Whitepaper
+      name: Whitepaper
+      url: /whitepaper/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: Tokenomics
+      name: Tokenomics
+      url: /Tokenomics/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: X
+      name: X
+      url: "https://x.com/AntiBotBotClub"
       weight: 30
+    - identifier: solscan
+      name: Solscan
+      url: https://solscan.io/token/57mFSXw53JrpzAsK6Sfc2cH6iL3L7JRXEobxnjma5aii
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

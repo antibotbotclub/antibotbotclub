@@ -8,7 +8,7 @@ ShowReadingTime: false
 ShowWordCount: false
 hideAuthor: true
 
-# tags: ["tokenomics", "bots", "solana", "blockchain", "cybersecurity"]
+# tags: ["tokenomics", "bots", "web3", "blockchain", "cybersecurity"]
 ---
 
 # Coming soon

@@ -1,8 +1,8 @@
 ---
 title: "[WIP] Whitepaper"
 layout: "single"
-description: "we build anti-bots."
-summary: we build anti-bots."
+description: "we build bots."
+summary: we build bots."
 # tags: ["whitepaper", "bots", "web3", "blockchain", "cybersecurity"]
 ShowReadingTime: false
 ShowWordCount: false
@@ -13,7 +13,7 @@ hideAuthor: true
 
 __*NOTE: The whitepaper is work-in-progress and will be updated.*__
 
-we build anti-bots.
+we build bots.
 
 ## Problem
 
@@ -24,15 +24,7 @@ bots.
 
 Fight automation with automation.
 
-By deploying anti-bots we aim to battle bots on their own domain. Human interactions are no longer fast enough to counter the bots. 
-
-In addition to the development of anti-bots we will fund security research through the tokenomics of the $ABBC token.
-
-"OMAE WA MOU SHINDEIRU - お前はもう死んでいる"
-
-## Tokenomics
-
-The complete tokenomics will be shared shortly. As mentioned above, a part of the $ABBC pool will be used as funding for research. Read more on the [Tokenomics](/tokenomics) page. 
+"OMAE WA MOU SHINDEIRU - お前はもう死んでいる" 
 
 ## Investors
 

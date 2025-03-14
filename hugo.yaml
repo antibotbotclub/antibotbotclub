@@ -1,6 +1,6 @@
 baseURL: https://antibotbot.club/
 languageCode: en-us
-title: Anti Bot Bot Club
+title: Anti Bot Bot Club - we build bots
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
@@ -15,9 +15,9 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Anti Bot Bot Club
-  description: "we build anti-bots"
+  description: "we build bots"
   keywords: [Anti, Bots, Club, Web3, Cryptocurrency, ]
-  author: Anti Bot Bot Club Admin
+  author: Anti Bot Bot Club
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
@@ -55,8 +55,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: "$ABBC"
-    subtitle: "we build anti-bots"
+    title: "Anti Bot Bot Club"
+    subtitle: "we build bots"
     imageUrl: "/logo-white.png"
     imageWidth: 250
     imageHeight: 250
@@ -69,7 +69,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "we build anti-bots"
+    Title: "we build bots"
     Content: turning drains into gains
 
   socialIcons:
@@ -80,7 +80,7 @@ params:
     - name: github
       url: "https://github.com/antibotbotclub"
 
-  analytics:
+  analytics:  
     google:
       SiteVerificationTag: "XYZabc"
     bing:
@@ -99,18 +99,14 @@ menu:
       name: Whitepaper
       url: /whitepaper/
       weight: 10
-    - identifier: Tokenomics
-      name: Tokenomics
-      url: /Tokenomics/
-      weight: 20
     - identifier: X
       name: X
       url: "https://x.com/AntiBotBotClub"
-      weight: 30
+      weight: 20
     - identifier: solscan
       name: Solscan
       url: https://solscan.io/token/57mFSXw53JrpzAsK6Sfc2cH6iL3L7JRXEobxnjma5aii
-      weight: 40
+      weight: 30
 pygmentsUseClasses: true
 markup:
   highlight:

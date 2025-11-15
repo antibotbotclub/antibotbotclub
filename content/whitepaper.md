@@ -1,5 +1,5 @@
 ---
-title: "[WIP] Whitepaper"
+title: "Whitepaper"
 layout: "single"
 description: "we build bots."
 summary: we build bots."

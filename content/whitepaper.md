@@ -13,18 +13,15 @@ hideAuthor: true
 
 __*NOTE: The whitepaper is work-in-progress and will be updated.*__
 
-we build bots.
+we build bots. 
 
 ## Problem
 
 bots. 
 
-
 ## Solution
 
-Fight automation with automation.
-
-"OMAE WA MOU SHINDEIRU - お前はもう死んでいる" 
+anti bot bot club is an API + dashboard that lets Web3 projects score wallets and block bots/sybils from launches, airdrops, mints, and in-game economies.
 
 ## Investors
 

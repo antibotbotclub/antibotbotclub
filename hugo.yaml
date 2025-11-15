@@ -103,10 +103,7 @@ menu:
       name: X
       url: "https://x.com/AntiBotBotClub"
       weight: 20
-    - identifier: solscan
-      name: Solscan
-      url: https://solscan.io/token/57mFSXw53JrpzAsK6Sfc2cH6iL3L7JRXEobxnjma5aii
-      weight: 30
+
 pygmentsUseClasses: true
 markup:
   highlight:
